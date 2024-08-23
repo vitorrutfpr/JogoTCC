@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JogoMaster
 
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
@@ -31,3 +32,7 @@ Useful Gradle tasks and flags:
 
 Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
 For example, `core:clean` removes `build` folder only from the `core` project.
+=======
+# JogoTCC
+Jogo desenvolvido por mim e minha dupla Tiago para o nosso TCC
+>>>>>>> c69347434f5a8b6f51c5034d495fbaedcaf2d6f2
