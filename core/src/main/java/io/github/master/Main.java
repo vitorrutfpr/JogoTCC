@@ -5,13 +5,12 @@ import com.badlogic.gdx.Gdx;
 
 public class Main extends ApplicationAdapter {
 
-    private Tabuleiro tabuleiro;
+    private TabuleiroClasse tabuleiro;
 
     @Override
     public void create() {
-        Renderizador renderizador = new RenderizarForma();
-        tabuleiro = new Tabuleiro(renderizador);
-        tabuleiro.inicializar();
+        RenderizadorClasse renderizadorClasse = new RenderizadorClasse();
+        tabuleiro = new TabuleiroClasse(renderizadorClasse);
     }
 
     @Override
