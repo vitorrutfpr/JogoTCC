@@ -1,0 +1,25 @@
+{
+    "id": 18,
+    "ano": 2024,
+    "banca": "CESPE / CEBRASPE",
+    "orgao": "LNA",
+    "prova": "CESPE / CEBRASPE - 2024 - LNA - Tecnologista – Especialidade: Desenvolvimento e Arquitetura de Software",
+    "pergunta": "A abordagem que se concentra principalmente em examinar as estruturas internas ou os funcionamentos de uma aplicação de software é denominada teste de",
+    "alternativas": [
+        {
+            "a": "sistema."
+        },
+        {
+            "b": "caixa preta."
+        },
+        {
+            "c": "caixa branca."
+        },
+        {
+            "d": "aceitação."
+        }
+    ],
+    "alternativa_correta": "C",
+    "solucao": "esta alternativa é correta pois, teste caixa branca se refere a uma abordagem de teste de software que examina as estruturas internas e o funcionamento do sistema, requerendo conhecimento do código-fonte. Essa metodologia permite a verificação de todos os caminhos possíveis no código, identificação de erros específicos e garantia de que todos os recursos internos funcionam corretamente."
+}
+

@@ -1,0 +1,25 @@
+{
+    "id": 5,
+    "ano": 2024,
+    "banca": "IBADE",
+    "orgao": "PRODEST-ES",
+    "prova": "IBADE - 2024 - PRODEST-ES - Analista de Tecnologia da Informação - Desenvolvimento de Sistemas",
+    "pergunta": "Existe uma variante do teste de Stress que avalia um intervalo muito pequeno, contido dentro dos limites de validade dos dados e que poderiam causar um processamento extremo e até errôneo, ou profunda degradação de desempenho do sistema. Essa variante é conhecia como:",
+    "alternativas": [
+        {
+            "a": "teste de sensibilidade;"
+        },
+        {
+            "b": "teste de regressão;"
+        },
+        {
+            "c": "teste de recuperação;"
+        },
+        {
+            "d": "teste beta."
+        }
+    ],
+    "alternativa_correta": "A",
+    "solucao": "esta alternativa é correta pois o teste de sensibilidade trata de avaliar o sistema em situações próximas aos limites válidos, sem ser necessariamente neste limite, ajudando a identificar se pequenas mudanças na entrada causam grandes desdobramentos no desempenho do sistema."
+}
+

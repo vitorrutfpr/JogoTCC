@@ -1,0 +1,25 @@
+{
+    "id": 17,
+    "ano": 2024,
+    "banca": "CESPE / CEBRASPE",
+    "orgao": "LNA",
+    "prova": "CESPE / CEBRASPE - 2024 - LNA - Tecnologista – Especialidade: Desenvolvimento e Arquitetura de Software",
+    "pergunta": "Os frameworks de teste de software",
+    "alternativas": [
+        {
+            "a": "permitem o aumento da produtividade, apesar de não serem úteis para testar softwares em diferentes plataformas."
+        },
+        {
+            "b": "permitem o aumento da produtividade, ainda que não possam ser integrados a processos de integração contínua."
+        },
+        {
+            "c": "são usados exclusivamente para testes manuais."
+        },
+        {
+            "d": "fornecem estruturas e funcionalidades para automatizar os testes de software."
+        }
+    ],
+    "alternativa_correta": "D",
+    "solucao": "esta alternativa é correta pois, os frameworks de teste são projetados para facilitar a automação, aumentando a eficiência e a precisão dos testes. Eles permitem que as equipes identifiquem e corrijam bugs de maneira mais rápida e confiável."
+}
+

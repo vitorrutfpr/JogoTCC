@@ -1,0 +1,25 @@
+{
+    "id": 0,
+    "ano": 2024,
+    "banca": "banca",
+    "orgao": "orgao",
+    "prova": "prova",
+    "pergunta": "pergunta",
+    "alternativas": [
+        {
+            "a": "alternativa"
+        },
+        {
+            "b": "alternativa"
+        },
+        {
+            "c": "alternativa"
+        },
+        {
+            "d": "alternativa"
+        }
+    ],
+    "alternativa_correta": "A",
+    "solucao": "solucao"
+}
+

@@ -1,0 +1,25 @@
+{
+    "id": 11,
+    "ano": 2024,
+    "banca": "CESGRANRIO",
+    "orgao": "Caixa",
+    "prova": "CESGRANRIO - 2024 - Caixa - Técnico Bancário Novo - Tecnologia da Informação - 1° Simulado",
+    "pergunta": "Os testes de software são atividades realizadas para garantir que um programa atenda aos requisitos, funcione corretamente e seja confiável. Um destes testes é realizado interna e externamente antes do lançamento do produto para identificar problemas.",
+    "alternativas": [
+        {
+            "a": "Teste de aceitação."
+        },
+        {
+            "b": "Teste de integração."
+        },
+        {
+            "c": "Teste de unidade."
+        },
+        {
+            "d": "Teste alfa e beta."
+        }
+    ],
+    "alternativa_correta": "D",
+    "solucao": "esta alternativa é correta pois estes são os dois testes a serem realizados antes de colocar o software em produção, com o teste alfa realizado internamente, e o beta externamente."
+}
+
