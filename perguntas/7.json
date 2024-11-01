@@ -7,18 +7,10 @@
     "pergunta": "O desenvolvimento orientado a testes (TDD) engloba um conjunto de práticas que visam garantir a detecção de erros e a qualidade do código gerado.
 No escopo do TDD, assinale a opção que apresenta a característica do teste unitário.",
     "alternativas": [
-        {
-            "a": "Ser realizado desde o início do projeto."
-        },
-        {
-            "b": "Ser desnecessário em pequenos projetos."
-        },
-        {
-            "c": "Avaliar mudanças em um sistema como um todo."
-        },
-        {
-            "d": "Ser substituível por testes de regressão."
-        }
+        {"alternativa": "A", "solucao": "Ser realizado desde o início do projeto."},
+        {"alternativa": "B", "solucao": "Ser desnecessário em pequenos projetos."},
+        {"alternativa": "C", "solucao": "Avaliar mudanças em um sistema como um todo."},
+        {"alternativa": "D", "solucao": "Ser substituível por testes de regressão."}
     ],
     "alternativa_correta": "A",
     "solucao": "Esta alternativa é correta, pois o TDD trata de desenvolver testes antes da escrita do código do software, portanto testes unitários de vem ser escritos desde o início do projeto, antes de qualquer funcionalidade ser codificada."

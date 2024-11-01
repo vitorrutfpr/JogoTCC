@@ -1,25 +1,17 @@
 {
-    "id": 0,
+    "id": ,
     "ano": 2024,
-    "banca": "banca",
-    "orgao": "orgao",
-    "prova": "prova",
-    "pergunta": "pergunta",
+    "banca": "",
+    "orgao": "",
+    "prova": "",
+    "pergunta": "",
     "alternativas": [
-        {
-            "a": "alternativa"
-        },
-        {
-            "b": "alternativa"
-        },
-        {
-            "c": "alternativa"
-        },
-        {
-            "d": "alternativa"
-        }
+        {"alternativa": "A", "solucao": ""},
+        {"alternativa": "B", "solucao": ""},
+        {"alternativa": "C", "solucao": ""},
+        {"alternativa": "D", "solucao": ""}
     ],
-    "alternativa_correta": "A",
-    "solucao": "solucao"
+    "alternativaCorreta": "A",
+    "solucao": ""
 }
 

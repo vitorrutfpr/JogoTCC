@@ -6,18 +6,10 @@
     "prova": "UFMT - 2024 - Prefeitura de Cáceres - MT - Analista de Sistemas",
     "pergunta": "Na verificação de software, marque a afirmativa que define o propósito da técnica de revisão de código estática. ",
     "alternativas": [
-        {
-            "a": "Executar testes automatizados para verificar a integridade funcional do software. "
-        },
-        {
-            "b": "Avaliar o desempenho do sistema em condições de carga elevada, antes da execução em produção."
-        },
-        {
-            "c": "Identificar defeitos no código-fonte por meio da análise visual e manual, antes da execução dos testes."
-        },
-        {
-            "d": "Analisar a conformidade do software com os requisitos de usuário, antes da entrega do produto."
-        }
+        {"alternativa": "A", "solucao": "Executar testes automatizados para verificar a integridade funcional do software."},
+        {"alternativa": "B", "solucao": "Avaliar o desempenho do sistema em condições de carga elevada, antes da execução em produção."},
+        {"alternativa": "C", "solucao": "Identificar defeitos no código-fonte por meio da análise visual e manual, antes da execução dos testes."},
+        {"alternativa": "D", "solucao": "Analisar a conformidade do software com os requisitos de usuário, antes da entrega do produto."}
     ],
     "alternativa_correta": "C",
     "solucao": "esta alternativa é correta pois, revisão de código estática consiste em uma análise visual e manual do código-fonte, feita antes da execução dos testes, para identificar possíveis defeitos. Essa técnica é essencial para encontrar problemas antecipadamente, sem executar o software, o que contribui para a qualidade do código."
