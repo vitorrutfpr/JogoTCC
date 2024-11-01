@@ -7,20 +7,12 @@
     "pergunta": "No contexto da Engenharia de Software, os testes de software desempenham um papel consideravelmente importante no âmbito do processo de desenvolvimento.
 Nesse contexto, os testes de unidade caracterizam-se por",
     "alternativas": [
-        {
-            "a": "dependerem do sucesso do teste de integração descendente (top-down)."
-        },
-        {
-            "b": "representarem validações em componentes que representam programas independentes."
-        },
-        {
-            "c": "serem responsáveis pela verificação na menor unidade do componente ou módulo de software."
-        },
-        {
-            "d": "substituírem paulatinamente a abordagem de teste por fumaça na verificação do software."
-        }
+        {"alternativa": "A", "solucao": "Dependerem do sucesso do teste de integração descendente (top-down)."},
+        {"alternativa": "B", "solucao": "Representarem validações em componentes que representam programas independentes."},
+        {"alternativa": "C", "solucao": "Serem responsáveis pela verificação na menor unidade do componente ou módulo de software."},
+        {"alternativa": "D", "solucao": "Substituírem paulatinamente a abordagem de teste por fumaça na verificação do software."}
     ],
-    "alternativa_correta": "C",
+    "alternativaCorreta": "C",
     "solucao": "esta alternativa é correta pois, testes de unidade verificam a menor unidade de um componente, como funções, métodos ou classes, garantindo que cada parte do código funcione corretamente de forma isolada. Essa abordagem permite identificar e corrigir erros precocemente no ciclo de desenvolvimento, antes da integração com outras partes do sistema."
 }
 

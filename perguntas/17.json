@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "São usados exclusivamente para testes manuais."},
         {"alternativa": "D", "solucao": "Fornecem estruturas e funcionalidades para automatizar os testes de software."}
     ],
-    "alternativa_correta": "D",
+    "alternativaCorreta": "D",
     "solucao": "esta alternativa é correta pois, os frameworks de teste são projetados para facilitar a automação, aumentando a eficiência e a precisão dos testes. Eles permitem que as equipes identifiquem e corrijam bugs de maneira mais rápida e confiável."
 }
 
