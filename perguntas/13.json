@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Não está preocupado com o comportamento interno do sistema durante a execução do teste, mas sim com a saída gerada após a entrada dos dados especificados;"},
         {"alternativa": "D", "solucao": "Essa técnica de teste deve validar os requisitos de segurança, visando identificar as vulnerabilidades do sistema;"}
     ],
-    "alternativa_correta": "A",
+    "alternativaCorreta": "A",
     "solucao": "esta alternativa é correta pois, descreve precisamente o Teste de Regressão, que consiste em reaplicar os testes das versões anteriores antes e depois de alterações no software para garantir que novas modificações não introduzam erros nem reativem erros antigos."
 }
 

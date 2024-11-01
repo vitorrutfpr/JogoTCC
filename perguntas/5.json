@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Teste de recuperação;"},
         {"alternativa": "D", "solucao": "Teste beta."}
     ],
-    "alternativa_correta": "A",
+    "alternativaCorreta": "A",
     "solucao": "esta alternativa é correta pois o teste de sensibilidade trata de avaliar o sistema em situações próximas aos limites válidos, sem ser necessariamente neste limite, ajudando a identificar se pequenas mudanças na entrada causam grandes desdobramentos no desempenho do sistema."
 }
 

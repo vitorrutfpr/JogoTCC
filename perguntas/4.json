@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Assegurar o funcionamento do software em diversas plataformas de hardware."},
         {"alternativa": "D", "solucao": "Assegurar que o software possa realizar seu processamento de acordo com a carga pretendida."}
     ],
-    "alternativa_correta": "D",
+    "alternativaCorreta": "D",
     "solucao": "esta alternativa é correta pois o teste de desempenho é utilizado especificamente para avaliar a velocidade, estabilidade e capacidade de resposta de um sistema, ou seja, se ele consegue se manter quando colocado com a carga esperada (por exemplo usuários simultâneos) quando for colocado em produção"
 }
 

@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Teste de Integração."},
         {"alternativa": "D", "solucao": "Teste de Segurança."}
     ],
-    "alternativa_correta": "C",
+    "alternativaCorreta": "C",
     "solucao": "esta alternativa é correta pois o teste de integração é o teste que avalia a interação e cooperação entre diferentes módulos ou componentes de um sistema, verificando se funcionam corretamente quando combinados, sem conflitos ou falhas."
 }
 

@@ -12,7 +12,7 @@ No escopo do TDD, assinale a opção que apresenta a característica do teste un
         {"alternativa": "C", "solucao": "Avaliar mudanças em um sistema como um todo."},
         {"alternativa": "D", "solucao": "Ser substituível por testes de regressão."}
     ],
-    "alternativa_correta": "A",
+    "alternativaCorreta": "A",
     "solucao": "Esta alternativa é correta, pois o TDD trata de desenvolver testes antes da escrita do código do software, portanto testes unitários de vem ser escritos desde o início do projeto, antes de qualquer funcionalidade ser codificada."
 }
 

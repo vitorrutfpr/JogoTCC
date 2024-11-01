@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "De integração com abordagem de caixa preta."},
         {"alternativa": "D", "solucao": "De regressão com abordagem de caixa preta."}
     ],
-    "alternativa_correta": "A",
+    "alternativaCorreta": "A",
     "solucao": "esta alternativa é correta pois ela combina o uso de informações do código fonte (teste caixa branca) com a necessidade de testar funcionalidades não modificadas após uma mudança (teste de regressão)"
 }
 

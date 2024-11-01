@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Os requisitos estão bem entendidos;"},
         {"alternativa": "D", "solucao": "Os componentes apresentam alta integração;"}
     ],
-    "alternativa_correta": "B",
+    "alternativaCorreta": "B",
     "solucao": "esta alternativa é correta pois, considerando que o teste unitário testa unidades de código para verificar se funcionam de forma isolada. Neste caso de um sistema não orientado a objetos, se uma única função é implementada por componente, o teste unitário é facilitado, dado que cada componente tem uma responsabilidade única."
 }
 

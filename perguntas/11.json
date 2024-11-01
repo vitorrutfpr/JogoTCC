@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Teste de unidade."},
         {"alternativa": "D", "solucao": "Teste alfa e beta."}
     ],
-    "alternativa_correta": "D",
+    "alternativaCorreta": "D",
     "solucao": "esta alternativa é correta pois estes são os dois testes a serem realizados antes de colocar o software em produção, com o teste alfa realizado internamente, e o beta externamente."
 }
 

@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Identificar defeitos no código-fonte por meio da análise visual e manual, antes da execução dos testes."},
         {"alternativa": "D", "solucao": "Analisar a conformidade do software com os requisitos de usuário, antes da entrega do produto."}
     ],
-    "alternativa_correta": "C",
+    "alternativaCorreta": "C",
     "solucao": "esta alternativa é correta pois, revisão de código estática consiste em uma análise visual e manual do código-fonte, feita antes da execução dos testes, para identificar possíveis defeitos. Essa técnica é essencial para encontrar problemas antecipadamente, sem executar o software, o que contribui para a qualidade do código."
 }
 

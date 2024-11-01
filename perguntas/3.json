@@ -13,7 +13,7 @@ A definição acima descreve aspectos a respeito do teste de",
         {"alternativa": "C", "solucao": "Regressão."},
         {"alternativa": "D", "solucao": "Unidade."}
     ],
-    "alternativa_correta": "A",
+    "alternativaCorreta": "A",
     "solucao": "esta alternativa é correta pois o teste de aceitação é o último tipo de teste aplicado antes do sistema ser colocado em produção, e é feito para verificar se o sistema atende os requisitos do cliente e está pronto para ser utilizado."
 }
 

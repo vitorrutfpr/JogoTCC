@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Enfatiza a qualidade da comunicação e a compreensão compartilhada das funcionalidades do software entre as partes interessadas, incluindo desenvolvedores, testadores e partes de negócios."},
         {"alternativa": "D", "solucao": "Recomenda criação de especificações de comportamento, usando linguagem natural (Gherkin, por exemplo), a qual descreve o comportamento esperado do software em termos de cenários e casos de uso."}
     ],
-    "alternativa_correta": "B",
+    "alternativaCorreta": "B",
     "solucao": "esta alternativa é a correta pois, TDD trata-se de desenolver testes antes mesmo de escrever código e desenvolver funcionalidades, isto é feito com o intuito de conferir mais qualidade e confiabilidade ao software."
 }
 

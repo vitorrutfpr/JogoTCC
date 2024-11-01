@@ -13,7 +13,7 @@ Para atender a essa cláusula do contrato, o fornecedor deve",
         {"alternativa": "C", "solucao": "Testar individualmente os menores pedaços de código do software, como funções ou métodos, para garantir que funcionem corretamente."},
         {"alternativa": "D", "solucao": "Avaliar o software com uma equipe interna que simula o comportamento do usuário final, buscando identificar falhas antes da liberação para usuários externos."}
     ],
-    "alternativa_correta": "D",
+    "alternativaCorreta": "D",
     "solucao": "esta alternativa está correta pois corresponde a cláusula do contrato corresponde a um teste de qualidade de software, cujo objetivo é encontrar falhas antes que a aplicação seja liberada para os usuários finais, geralmente é um dos últimos testes feitos durante o ciclo de desenvolvimento de software."
 }
 

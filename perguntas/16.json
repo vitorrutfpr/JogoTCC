@@ -11,7 +11,7 @@
         {"alternativa": "C", "solucao": "Teste funcional"},
         {"alternativa": "D", "solucao": "Teste de integração"}
     ],
-    "alternativa_correta": "D",
+    "alternativaCorreta": "D",
     "solucao": "esta alternativa é correta pois, o teste de integração verifica se diferentes módulos do sistema interagem corretamente, sendo essencial para garantir a comunicação entre os módulos."
 }
 

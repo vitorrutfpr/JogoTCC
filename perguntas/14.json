@@ -12,7 +12,7 @@ Assinale a opção que indica o tipo de teste que assegura que as funcionalidade
         {"alternativa": "C", "solucao": "Teste de Usabilidade."},
         {"alternativa": "D", "solucao": "Teste de Regressão."}
     ],
-    "alternativa_correta": "D",
+    "alternativaCorreta": "D",
     "solucao": "esta alternativa é correta pois, o teste de regressão assegura que funcionalidades existentes não sejam comprometidas após modificações no código, sendo essencial após correções de bugs, melhorias ou novas funcionalidades."
 }
 
