@@ -16,7 +16,7 @@ public class JogadorClasse {
         this.cor = cor;
         this.posicaoLinha = posicaoInicialLinha;
         this.posicaoColuna = posicaoInicialColuna;
-        this.respostaCorreta = false;
+        this.respostaCorreta = true;
         this.renderizador = renderizador;
     }
 
@@ -29,12 +29,14 @@ public class JogadorClasse {
     }
 
     public int getPosicaoLinha() {
-        return posicaoLinha;
+        return this.posicaoLinha;
     }
 
     public int getPosicaoColuna() {
-        return posicaoColuna;
+        return this.posicaoColuna;
     }
+
+    public boolean getRespostaCorreta() { return this.respostaCorreta; }
 
     public void mover(int novaLinha, int novaColuna) {
         this.posicaoLinha = novaLinha;
@@ -42,13 +44,13 @@ public class JogadorClasse {
     }
 
     public void responderPergunta(){
-        if(this.respostaCorreta){
-            this.mover(0, 0);
-        }
+        this.respostaCorreta = true;
+
     }
 
     private void desenharJogador() {
         this.renderizador.desenharJogador(this);
     }
+
 
 }

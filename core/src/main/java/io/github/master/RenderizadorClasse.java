@@ -2,27 +2,21 @@ package io.github.master;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Matrix4;
 
-import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
-import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
-
-
-public class RenderizadorClasse implements RenderizadorInterface {
+public class RenderizadorClasse {
 
     private ShapeRenderer renderizadorForma;
-    private OrthographicCamera camera;
-    private Stage stage;
-    private Skin skin;
-    private TextButton botaoMover;
-
+    private GerenciadorCameraClasse gerenciadorCamera;
+    private SpriteBatch batch;
     public RenderizadorClasse() {
+        this.gerenciadorCamera = GerenciadorCameraClasse.getInstancia();
+        renderizadorForma = new ShapeRenderer();
+        batch = new SpriteBatch();
     }
 
     public void desenharRetangulo(float x, float y, float largura, float altura, Cor cor) {
@@ -61,41 +55,10 @@ public class RenderizadorClasse implements RenderizadorInterface {
         }
     }
 
-    @Override
-    public void iniciar() {
-        renderizadorForma = new ShapeRenderer();
-        camera = new OrthographicCamera();
-        stage = new Stage(new ScreenViewport());
-        skin = new Skin(Gdx.files.internal("uiskin.json"));
-        botaoMover = new TextButton("Mover Jogador", skin);
-
-        Gdx.input.setInputProcessor(stage);
-        botaoMover.setSize(200, 50);
-        botaoMover.setPosition(50, 400);
-
-        this.addListenerBotao();
-    }
-
-
-    private void addListenerBotao(){
-        botaoMover.addListener(new ClickListener() {
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-            }
-        });
-
-        stage.addActor(botaoMover);
-    }
-
-    @Override
     public void render(float delta) {
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        camera.update();
-        renderizadorForma.setProjectionMatrix(camera.combined);
-
-        //renderizar botao
-        stage.act(delta);
-        stage.draw();
+        gerenciadorCamera.atualizar();
+        renderizadorForma.setProjectionMatrix(gerenciadorCamera.getCamera().combined);
     }
 
     public void desenharJogador(JogadorClasse jogador) {
@@ -104,17 +67,18 @@ public class RenderizadorClasse implements RenderizadorInterface {
         desenharRetangulo(x, y, 80, 80, jogador.getCor());
     }
 
-    @Override
-    public void resize(int largura, int altura) {
-        camera.setToOrtho(false, largura, altura);
-        camera.update();
-        stage.getViewport().update(largura, altura, true);
+    public void desenharQuadradoComImagem(float x, float y, float largura, float altura, String imagemPath) {
+        desenharRetangulo(x, y, largura, altura, Cor.BRANCO);
+
+        Texture imagem = new Texture(imagemPath);
+        batch.begin();
+        batch.draw(imagem, x, y, largura, altura);
+        batch.end();
+        imagem.dispose();
     }
 
-    @Override
-    public void dispose() {
-        renderizadorForma.dispose();
-        stage.dispose();
-        skin.dispose();
+    public void setProjectionMatrix(Matrix4 matrix) {
+        batch.setProjectionMatrix(matrix);
     }
+
 }

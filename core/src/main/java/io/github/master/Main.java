@@ -5,26 +5,25 @@ import com.badlogic.gdx.Gdx;
 
 public class Main extends ApplicationAdapter {
 
-    private TabuleiroClasse tabuleiro;
+    private JogoClasse jogo;
 
     @Override
     public void create() {
-        RenderizadorClasse renderizadorClasse = new RenderizadorClasse();
-        tabuleiro = new TabuleiroClasse(renderizadorClasse);
+        jogo = new JogoClasse();
     }
 
     @Override
     public void render() {
-        tabuleiro.render(Gdx.graphics.getDeltaTime());
+        jogo.render(Gdx.graphics.getDeltaTime());
     }
 
     @Override
     public void resize(int largura, int altura) {
-        tabuleiro.resize(largura, altura);
+        GerenciadorCameraClasse.getInstancia().redimensionar(largura, altura);
     }
 
     @Override
     public void dispose() {
-        tabuleiro.dispose();
+        jogo.dispose();
     }
 }
