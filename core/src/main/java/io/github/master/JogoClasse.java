@@ -25,6 +25,7 @@ public class JogoClasse {
     private Skin skin;
     private TextButton botaoPergunta;
 
+
     public JogoClasse() {
         this.stage = new Stage(new ScreenViewport());
         this.camera = GerenciadorCameraClasse.getInstancia();
@@ -36,7 +37,6 @@ public class JogoClasse {
         criarBotaoPergunta();
 
         Gdx.input.setInputProcessor(stage);
-        mostrarTabuleiro();
     }
 
     private void criarBotaoPergunta() {
@@ -51,12 +51,18 @@ public class JogoClasse {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 System.out.println("Botão clicado! Posição do clique: (" + x + ", " + y + ")");
-                mostrarPergunta();
+                pergunta.setMostrarPergunta(true);
             }
         });
     }
 
     public void gerenciarTurno() {
+        if(pergunta.getMostrarPergunta()){
+            mostrarPergunta();
+        }
+        else {
+            mostrarTabuleiro();
+        }
 
     }
 
@@ -66,7 +72,7 @@ public class JogoClasse {
     }
 
     public void mostrarPergunta() {
-
+        pergunta.mostrarPerguntaAleatoria();
         pergunta.render();
     }
 
@@ -74,6 +80,7 @@ public class JogoClasse {
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         camera.atualizar();
+        gerenciarTurno();
         stage.act(delta);
         stage.draw();
     }
