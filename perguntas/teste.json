@@ -1,0 +1,17 @@
+{
+    "id": ,
+    "ano": 2024,
+    "banca": "",
+    "orgao": "",
+    "prova": "",
+    "pergunta": "",
+    "alternativas": [
+        {"alternativa": "A", "solucao": ""},
+        {"alternativa": "B", "solucao": ""},
+        {"alternativa": "C", "solucao": ""},
+        {"alternativa": "D", "solucao": ""}
+    ],
+    "alternativaCorreta": "",
+    "solucao": ""
+}
+

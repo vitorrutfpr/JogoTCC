@@ -12,7 +12,7 @@ Entre as características do TDD, é correto o que se afirma em",
         {"alternativa": "C", "solucao": "Na prática, se refere a escrever um teste automatizado durante o desenvolvimento do código de fato."},
         {"alternativa": "D", "solucao": "O ciclo do TDD se inicia com a criação de um teste, para auxiliar a codificação, segue com a realização da codificação para passar no teste, e finaliza com a eliminação das redundâncias, ao se refatorar o código."}
     ],
-    "alternativaCorreta": "A",
-    "solucao": "esta alternativa é correta pois o TDD segue o seguinte ciclo: primeiro, cria-se um teste que falha, depois escreve-se o código mínimo para que ele passe e, por fim, refatora-se o código para aprimorar sua estrutura sem quebrar o teste."
+    "alternativaCorreta": "D",
+    "solucao": ""
 }
 
